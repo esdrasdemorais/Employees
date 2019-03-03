@@ -8,11 +8,11 @@ import com.esdrasmorais.employees.domain.model.interfaces.IEmployee;
 
 public abstract class Employee implements IEmployee {
 	protected String email;
-	public List<IDocument> documents;
-	public String name;
-	public Date birth;
-	public Boolean isOutSourced;
-	public Profession profession;
+	protected List<IDocument> documents;
+	protected String name;
+	protected Date birth;
+	protected Boolean isOutSourced;
+	protected Profession profession;
 	
 	public void setEmail(String email) {
 		this.email = email;

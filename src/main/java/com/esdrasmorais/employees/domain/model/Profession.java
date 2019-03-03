@@ -4,5 +4,6 @@ public enum Profession {
 	DRIVER,
 	RETRO_OPERATOR,
 	FARMER,
-	MECHANIC
+	MECHANIC,
+	DRONE_OPERATOR
 }
